@@ -65,12 +65,12 @@ Matematicamente, para três segmentos formarem um triângulo, o comprimento de c
 
 Crie um jogo de JoKenPo (Pedra-Papel-Tesoura).
 
-### 👉 [Exercício 06]()
+### 👉 [Exercício 06](./exercicios/exercicio06.js)
 
 Crie um jogo onde o computador vai sortear um número entre 1 e 5. O jogador vai
 tentar descobrir qual foi o valor sorteado.
 
-### 👉 [Exercício 07]()
+### 👉 [Exercício 07](./exercicios/exercicio07.js)
 
 Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro popular custa R$ 90,00 por dia e um carro de luxo custa R$ 150,00. Além disso, o cliente paga por Km percorrido. Faça um programa que leia o tipo de carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km foram percorridos. No final, mostre o preço a ser pago de acordo com os dados a seguir:
 Carros populares
@@ -81,7 +81,7 @@ Carros populares
 - Até 200 Km percorridos: R$ 0,30 por Km
 - Acima de 200 Km percorridos: R$ 0,25 por Km
 
-### 👉 [Exercício 08]()
+### 👉 [Exercício 08](./exercicios/exercicio08.js)
 
 Um programa de vida saudável quer dar pontos por atividades físicas realizadas que podem ser trocados por dinheiro. Cada hora de atividade física no mês vale pontos. O sistema funciona assim:
 
@@ -92,11 +92,11 @@ Um programa de vida saudável quer dar pontos por atividades físicas realizadas
   Faça um programa que leia quantas horas de atividade uma pessoa teve por mês.
   Calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.
 
-### 👉 [Exercício 09]()
+### 👉 [Exercício 09](./exercicios/exercicio09.js)
 
 Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final, mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um funcionário.
 
-### 👉 [Exercício 10]()
+### 👉 [Exercício 10](./exercicios/exercicio10.js)
 
 Crie um programa usando a estrutura “faça enquanto” que leia vários números. A cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela:
 a) O somatório entre todos os valores;
