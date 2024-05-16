@@ -1,8 +1,19 @@
-/*
+const prompt = require('prompt-sync')();
+const ladoA = parseInt(prompt(`Digite o ladoA: `));
+const ladoB = parseInt(prompt(`Digite o ladoB: `));
+const ladoC = parseInt(prompt(`Digite o ladoC: `));
 
-Crie um programa que leia o tamanho de três segmentos de reta. 
-Analise seus comprimentos e diga se é possível formar um triângulo com essas retas.
-Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado
-deve ser menor que a soma dos outros dois.
+const verificaTriangulo = (ladoA, ladoB, ladoC) => {
+  const ehTriangulo =
+    ladoA + ladoB > ladoC && ladoB + ladoC > ladoA && ladoC + ladoA > ladoB;
 
-*/
+  if (ehTriangulo) {
+    return `
+    É triângulo!`;
+  } else {
+    return `
+    Não é triângulo!`;
+  }
+};
+
+console.log(verificaTriangulo(ladoA, ladoB, ladoC));
