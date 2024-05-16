@@ -1,6 +1,27 @@
-/*
+const prompt = require('prompt-sync')();
+const distancia = prompt(`Qual distância será percorrida? (em Km) `);
 
-Faça um algoritmo que pergunte a distância que um passageiro deseja percorrer em Km. 
-Calcule o preço da passagem, cobrando R$ 0.50 por Km para viagens até 200 Km e R$ 0.45 para viagens mais longas.
+function calcularPassagem(distancia) {
+  let resultado = 0;
+  if (distancia <= 0) {
+    return `
+    Distância incorreta
+    `;
+  } else if (distancia <= 200) {
+    resultado = 0.5 * distancia;
+    return `
+    O valor da passagem para a distância de ${distancia}Km, é de R$${resultado.toFixed(
+      2
+    )}
+    `;
+  } else {
+    resultado = 0.45 * distancia;
+    return `
+    O valor da passagem para a distância de ${distancia}Km, é de R$${resultado.toFixed(
+      2
+    )}
+    `;
+  }
+}
 
-*/
+console.log(calcularPassagem(distancia));
