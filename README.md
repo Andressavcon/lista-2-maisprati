@@ -129,7 +129,7 @@ Desenvolva um programa que leia 10 números inteiros e guarde-os em um vetor. No
 
 Crie uma lógica que preencha um vetor de 20 posições com números aleatórios (entre 0 e 99) gerados pelo computador. Logo em seguida, mostre os números gerados e depois coloque o vetor em ordem crescente, mostrando no final os valores ordenados.
 
-### 👉 [Exercício 17]()
+### 👉 [Exercício 17](./exercicios/exercicio17.js)
 
 Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses valores em dois vetores, em posições relacionadas. No final, mostre uma listagem contendo apenas
 os dados das pessoas menores de idade.
