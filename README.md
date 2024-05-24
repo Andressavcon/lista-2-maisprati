@@ -134,15 +134,15 @@ Crie uma lógica que preencha um vetor de 20 posições com números aleatórios
 Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses valores em dois vetores, em posições relacionadas. No final, mostre uma listagem contendo apenas
 os dados das pessoas menores de idade.
 
-### 👉 [Exercício 18]()
+### 👉 [Exercício 18](./exercicios/exercicio18.js)
 
 Crie um registro com o nome do funcionário, cargo e salário. Leia este registro para um funcionário e ao final escreva o conteúdo do registro.
 
-### 👉 [Exercício 19]()
+### 👉 [Exercício 19](./exercicios/exercicio19.js)
 
 Escrever um programa para ler 5 horários. Validar cada horário fornecendo através de repetição. Escrever cada um deles no formato HH.MM.SS.
 
-### 👉 [Exercício 20]()
+### 👉 [Exercício 20](./exercicios/exercicio20.js)
 
 Uma indústria faz a folha mensal de pagamentos de seus 80 empregados baseada no seguinte: existe uma tabela com os dados de cada funcionalidade: matrícula, nome e salário bruto. Escreva um programa que leia e processe a tabela e emita (escreva na tela), cada funcionário, seu contracheque, cujo formato é dado a seguir:
 Matrícula:
@@ -153,25 +153,25 @@ Salário líquido:
 (Dicas: desconto de 12%, salário líquido é a diferença entre salário bruto e a redução do
 INSS).
 
-### 👉 [Exercício 21]()
+### 👉 [Exercício 21](./exercicios/exercicio21.js)
 
 Faça uma função que recebe, por parâmetro, a altura (alt) e o sexo de uma pessoa e retorna o seu peso ideal. Para homens, calcular o peso ideal usando a fórmula: peso ideal
 = 72.7 x alt - 58 e, para mulheres, peso ideal = 62.1 x alt - 44.7.
 
-### 👉 [Exercício 22]()
+### 👉 [Exercício 22](./exercicios/exercicio22.js)
 
 A prefeitura de uma cidade fez uma pesquisa entre os seus habitantes, coletando dados sobre o salário e número de filhos. Faça uma função que leia esses dados para um
 número não determinado de pessoas e retorne a média de salário da população, a média do número de filhos, o maior salário e o percentual de pessoas com salário até R$ 350,00.
 
-### 👉 [Exercício 23]()
+### 👉 [Exercício 23](./exercicios/exercicio23.js)
 
 Criar e imprimir a matriz identidade MI[1..7,1..7] em que todos os elementos da diagonal principal são iguais a 1 e os demais são nulos.
 
-### 👉 [Exercício 24]()
+### 👉 [Exercício 24](./exercicios/exercicio24.js)
 
 Dada uma matriz M[1..6,1..8], criar um vetor C que contenha, em cada posição, a quantidade de elementos negativos da linha correspondente de M.
 
-### 👉 [Exercício 25]()
+### 👉 [Exercício 25](./exercicios/exercicio25.js)
 
 Faça um algoritmo que leia uma matriz de 15 X 20 de números reais e mostre a soma de cada coluna separadamente.
 
