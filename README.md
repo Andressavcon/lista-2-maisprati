@@ -104,20 +104,20 @@ b) Qual foi o menor valor digitado;
 c) A média entre todos os valores;
 d) Quantos valores são pares.
 
-### 👉 [Exercício 11]()
+### 👉 [Exercício 11](./exercicios/exercicio11.js)
 
 Desenvolva um programa que leia o primeiro termo e a razão de uma PA (Progressão Aritmética), mostrando na tela os 10 primeiros elementos da PA e a soma entre todos os valores da sequência.
 
-### 👉 [Exercício 12]()
+### 👉 [Exercício 12](./exercicios/exercicio12.js)
 
 Faça um programa que mostre os 10 primeiros elementos da Sequência de Fibonacci.
 Ex.: 1, 1, 2, 3, 5, 8, 13, 21.
 
-### 👉 [Exercício 13]()
+### 👉 [Exercício 13](./exercicios/exercicio13.js)
 
 Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 15 posições com os primeiros elementos da sequência de Fibonacci.
 
-### 👉 [Exercício 14]()
+### 👉 [Exercício 14](./exercicios/exercicio14.js)
 
 Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor. No final, mostre uma listagem com todos os nomes informados, na ordem inversa daquela em que eles foram informados.
 
