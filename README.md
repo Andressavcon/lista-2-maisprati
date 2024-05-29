@@ -251,44 +251,44 @@ Faça um algoritmo que leia um vetor (A) de 100 posições. Em seguida, compacte
 Faça um algoritmo que leia um vetor de 5 elementos inteiros, correspondentes ao resultado oficial da Loto. A seguir, leia 50 conjuntos de vetores (com 5 elementos inteiros cada), representando as apostas feitas. Compare os números das apostas com o resultado oficial e mostre uma mensagem ("Ganhador") se todos os números corresponderem ao resultado oficial. (Observação: não é necessário procurar por ternos
 e quadras, apenas por quinas.)
 
-### 👉 [Exercício 41]()
+### 👉 [Exercício 41](./exercicios/exercicio41.js)
 
 Dado o objeto pessoa com propriedades nome e idade, acesse e imprima o valor de idade. Adicione uma nova propriedade chamada email ao objeto pessoa que já possui nome e idade.
 
-### 👉 [Exercício 42]()
+### 👉 [Exercício 42](./exercicios/exercicio42.js)
 
 Crie um objeto chamado dados que contém várias propriedades, incluindo números, strings e arrays. Escreva uma função que retorne um novo objeto apenas com as propriedades que são arrays.
 
-### 👉 [Exercício 43]()
+### 👉 [Exercício 43](./exercicios/exercicio43.js)
 
 Dado dois objetos, obj1 e obj2, escreva uma função que crie um novo objeto combinando as propriedades de ambos, onde as propriedades de obj2 têm precedência sobre as do obj1 em caso de conflitos.
 
-### 👉 [Exercício 44]()
+### 👉 [Exercício 44](./exercicios/exercicio44.js)
 
 Escreva uma função que conte quantas propriedades do tipo string existem em um objeto e retorne esse número.
 
-### 👉 [Exercício 45]()
+### 👉 [Exercício 45](./exercicios/exercicio45.js)
 
 Dado um array de strings, crie um objeto onde cada string é uma chave, e seu valor é o número de vezes que a string aparece no array.
 
-### 👉 [Exercício 46]()
+### 👉 [Exercício 46](./exercicios/exercicio46.js)
 
 Suponha que você tem um array de objetos onde cada objeto representa uma venda com vendedor e valor. Escreva uma função que retorne um objeto que sumarize o total de vendas por vendedor.
 
-### 👉 [Exercício 47]()
+### 👉 [Exercício 47](./exercicios/exercicio47.js)
 
 Crie uma função que transforme um objeto de entrada aplicando uma função fornecida a cada uma das propriedades do objeto, retornando um novo objeto com os resultados.
 
-### 👉 [Exercício 48]()
+### 👉 [Exercício 48](./exercicios/exercicio48.js)
 
 Você recebe dois objetos que representam o inventário de duas lojas diferentes: inventarioLojaA e inventarioLojaB. Cada chave é um item, e o valor é a quantidade desse item em estoque. Escreva uma função que combine os inventários em um único objeto. Se um item aparecer em ambas as lojas, some as quantidades.
 
-### 👉 [Exercício 49]()
+### 👉 [Exercício 49](./exercicios/exercicio49.js)
 
 Você recebe um array de objetos representando transações financeiras. Cada transação possui id, valor, data, e categoria. Escreva uma função que retorne um objeto
 onde as chaves são as categorias, e os valores são arrays de transações pertencentes a essa categoria. Adicionalmente, inclua um subtotal de valores por categoria.
 
-### 👉 [Exercício 50]()
+### 👉 [Exercício 50](./exercicios/exercicio50.js)
 
 Desenvolva um pequeno sistema de reserva de hotéis usando JavaScript. O sistema deverá ser capaz de interagir com o usuário através do console do navegador e manter um registro das reservas e hotéis disponíveis. Utilize objetos e arrays para gerenciar as informações. Não é necessário interface gráfica, apenas funcionalidade lógica.
 
