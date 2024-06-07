@@ -189,7 +189,7 @@ Fazer um algoritmo para receber uma matriz 10 x 10 e devolver o resultado pedido
 a) a soma dos elementos acima da diagonal principal;
 b) a soma dos elementos abaixo da diagonal principal;
 
-### 👉 [Exercício 29]()
+### 👉 [Exercício 29](./exercicios/exercicio29.js)
 
 Escreva um algoritmo que leia uma matriz M(5,5) e calcule as somas:
 a) da linha 4 de M;
@@ -198,11 +198,11 @@ c) da diagonal principal;
 d) todos os elementos da matriz M.
 Escrever essas somas e a matriz.
 
-### 👉 [Exercício 30]()
+### 👉 [Exercício 30](./exercicios/exercicio30.js)
 
 Escrever um algoritmo que lê uma matriz M(5,5) e cria 2 vetores SL(5) e SC(5) que contenham, respectivamente, as somas das linhas e das colunas de M. Escrever a matriz e os vetores criados.
 
-### 👉 [Exercício 31]()
+### 👉 [Exercício 31](./exercicios/exercicio31.js)
 
 Escreva um algoritmo que leia um número inteiro A e uma matriz V 30 x 30 de inteiros.
 Conte quantos valores iguais a A estão na matriz. Crie, a seguir, uma matriz X contendo todos os elementos de V diferentes de A. Mostre os resultados.
