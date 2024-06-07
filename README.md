@@ -175,15 +175,15 @@ Dada uma matriz M[1..6,1..8], criar um vetor C que contenha, em cada posição, 
 
 Faça um algoritmo que leia uma matriz de 15 X 20 de números reais e mostre a soma de cada coluna separadamente.
 
-### 👉 [Exercício 26]()
+### 👉 [Exercício 26](./exercicios/exercicio26.js)
 
 Dadas duas matrizes numéricas A[1..3,1..5] e B[1..3,1..5], calcular a matriz produto P[1..3,1..5].
 
-### 👉 [Exercício 27]()
+### 👉 [Exercício 27](./exercicios/exercicio27.js)
 
 Elaborar um algoritmo que leia uma matriz M(6,6) e um valor A. Após a leitura, multiplicar a matriz M pelo valor A e colocar os valores da matriz multiplicados por A em um vetor V(36). Escrever o vetor V no final.
 
-### 👉 [Exercício 28]()
+### 👉 [Exercício 28](./exercicios/exercicio28.js)
 
 Fazer um algoritmo para receber uma matriz 10 x 10 e devolver o resultado pedido no item:
 a) a soma dos elementos acima da diagonal principal;
