@@ -1,11 +1,58 @@
-/*
+const prompt = require('prompt-sync')();
 
-Escreva um algoritmo que leia um vetor de 13 elementos inteiros,
-que é o Gabarito de um teste da loteria esportiva. Leia, a seguir,
-para cada um dos 100 apostadores, o número do seu cartão e um vetor 
-de Respostas de 13 posições. Verifique para cada apostador o número 
-de acertos, comparando o vetor de Gabarito com o vetor de Respostas. 
-Escreva o número do apostador e o número de acertos. Se o apostador 
-tiver 13 acertos, mostrar a mensagem "Parabéns, tu foi o GANHADOR".
+function validarEntrada(entrada) {
+  return !isNaN(entrada) && entrada.trim() !== '';
+}
 
-*/
+function lerNumeroInteiro(mensagem) {
+  let entrada = prompt(mensagem);
+  while (!validarEntrada(entrada)) {
+    entrada = prompt('Por favor, digite um número inteiro válido: ');
+  }
+  return parseInt(entrada);
+}
+
+function lerVetor(tamanho, mensagem) {
+  let vetor = [];
+  for (let i = 0; i < tamanho; i++) {
+    let valor = lerNumeroInteiro(`${mensagem} [${i + 1}/${tamanho}]: `);
+    vetor.push(valor);
+  }
+  return vetor;
+}
+
+function contarAcertos(gabarito, respostas) {
+  let acertos = 0;
+  for (let i = 0; i < gabarito.length; i++) {
+    if (gabarito[i] === respostas[i]) {
+      acertos++;
+    }
+  }
+  return acertos;
+}
+
+const tamanhoGabarito = 13;
+console.log('Digite os 13 números do gabarito da loteria esportiva:');
+let gabarito = lerVetor(tamanhoGabarito, 'Número do gabarito');
+
+const totalApostadores = 100;
+const tamanhoRespostas = 13;
+for (let i = 0; i < totalApostadores; i++) {
+  let numeroCartao = lerNumeroInteiro(`
+Digite o número do cartão do apostador ${i + 1}:`);
+
+  console.log(`
+Digite os 13 números das respostas do apostador ${i + 1}:`);
+
+  let respostas = lerVetor(tamanhoRespostas, 'Número da resposta');
+  let acertos = contarAcertos(gabarito, respostas);
+
+  console.log(`
+Apostador ${numeroCartao}: Número de acertos = ${acertos}.`);
+
+  if (acertos === 13) {
+    console.log('Parabéns, tu foi o GANHADOR');
+  }
+}
+
+console.log('\nVerificação dos apostadores concluída.');
