@@ -207,33 +207,33 @@ Escrever um algoritmo que lê uma matriz M(5,5) e cria 2 vetores SL(5) e SC(5) q
 Escreva um algoritmo que leia um número inteiro A e uma matriz V 30 x 30 de inteiros.
 Conte quantos valores iguais a A estão na matriz. Crie, a seguir, uma matriz X contendo todos os elementos de V diferentes de A. Mostre os resultados.
 
-### 👉 [Exercício 32]()
+### 👉 [Exercício 32](./exercicios/exercicio32.js)
 
 Escrever um algoritmo que lê uma matriz M(12,13) e divida todos os 13 elementos de cada uma das 12 linhas de M pelo maior elemento em módulo daquela linha. Escrever a matriz lida e a modificada.
 
-### 👉 [Exercício 33]()
+### 👉 [Exercício 33](./exercicios/exercicio33.js)
 
 Faça um algoritmo que leia uma matriz 3 x 3 e após a leitura, multiplique os elementos da diagonal principal com a média dos elementos da diagonal secundária.
 
-### 👉 [Exercício 34]()
+### 👉 [Exercício 34](./exercicios/exercicio34.js)
 
 Faça um algoritmo que leia uma matriz 50 x 50 de números reais. A seguir, multiplique cada linha pelo elemento da diagonal principal daquela linha. Mostre a matriz após as
 multiplicações.
 
-### 👉 [Exercício 35]()
+### 👉 [Exercício 35](./exercicios/exercicio35.js)
 
 Elaborar um algoritmo que leia um conjunto de 30 valores e os coloca em 2 vetores conforme forem pares ou ímpares. O tamanho do vetor é de 5 posições. Se algum vetor estiver cheio, escrevê-lo. Terminada a leitura, escrever o conteúdo dos dois vetores. Cada vetor pode ser preenchido quantas vezes forem necessárias.
 
-### 👉 [Exercício 36]()
+### 👉 [Exercício 36](./exercicios/exercicio36.js)
 
 Escreva um algoritmo que leia um vetor de 13 elementos inteiros, que é o Gabarito de um teste da loteria esportiva. Leia, a seguir, para cada um dos 100 apostadores, o número
 do seu cartão e um vetor de Respostas de 13 posições. Verifique para cada apostador o número de acertos, comparando o vetor de Gabarito com o vetor de Respostas. Escreva o número do apostador e o número de acertos. Se o apostador tiver 13 acertos, mostrar a mensagem "Parabéns, tu foi o GANHADOR".
 
-### 👉 [Exercício 37]()
+### 👉 [Exercício 37](./exercicios/exercicio37.js)
 
 Escreva um algoritmo que leia um vetor G de 20 elementos caractere que representa o gabarito de uma prova. A seguir, para cada um dos 50 alunos da turma, leia o vetor de respostas (R) do aluno e conte o número de acertos. Mostre o número de acertos do aluno e uma mensagem “APROVADO” se a quantidade de acertos for maior ou igual a 12; e mostre uma mensagem de “REPROVADO”, caso contrário.
 
-### 👉 [Exercício 38]()
+### 👉 [Exercício 38](./exercicios/exercicio38.js)
 
 Elabore um algoritmo que leia um vetor de 6 posições e após sua leitura leia outra variável identificadora que calcule a operação conforme a informação contida nesta variável:
 1- soma dos elementos;
@@ -242,11 +242,11 @@ Elabore um algoritmo que leia um vetor de 6 posições e após sua leitura leia 
 4- ordene os elementos em ordem crescente;
 5- mostre o vetor.
 
-### 👉 [Exercício 39]()
+### 👉 [Exercício 39](./exercicios/exercicio39.js)
 
 Faça um algoritmo que leia um vetor (A) de 100 posições. Em seguida, compacte o vetor, retirando os valores nulos e negativos. Coloque o resultado no vetor B.
 
-### 👉 [Exercício 40]()
+### 👉 [Exercício 40](./exercicios/exercicio40.js)
 
 Faça um algoritmo que leia um vetor de 5 elementos inteiros, correspondentes ao resultado oficial da Loto. A seguir, leia 50 conjuntos de vetores (com 5 elementos inteiros cada), representando as apostas feitas. Compare os números das apostas com o resultado oficial e mostre uma mensagem ("Ganhador") se todos os números corresponderem ao resultado oficial. (Observação: não é necessário procurar por ternos
 e quadras, apenas por quinas.)
